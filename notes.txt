@@ -1,0 +1,17 @@
+modules - split code into files 
+we will separate code in files just like Django apps 
+
+project/
+│
+├── main.py // main file where we import 
+├── utils.py // functions where we have logics
+
+
+Django follows this structure 
+
+apps/
+  users/
+    models.py
+    views.py
+    serializers.py
+    services.py
